@@ -1,20 +1,16 @@
-html, body{
+html, body {
   height: 100%; 
-  background-color: lightblue; 
-  text-align: center; 
 }
 
-.container{
+.author-name, 
+.author-email {
+  text-align: left; 
+  margin-left: 5px; 
+}
+
+.author-meta {
   height: 100%; 
   display: flex; 
-}
-
-.item{
-  width: 35%;
-  margin: auto; 
-  border: solid black 1px; 
-}
-
-ul {
-  text-align: left; 
+  justify-content: center; 
+  align-items: center; 
 }
